@@ -1,6 +1,6 @@
 cask "niwa" do
-  version "1.3.9"
-  sha256 "PLACEHOLDER"
+  version "1.3.10"
+  sha256 "1a0ab746ef27f39284225663fd0d52d4c72f437d5bd69d39023b6cef81e22f93"
 
   url "https://github.com/saidjamesphilip/Niwa/releases/download/v#{version}/Niwa-#{version}-mac.zip"
   name "Niwa"
