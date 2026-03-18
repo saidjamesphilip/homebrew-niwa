@@ -1,10 +1,10 @@
 cask "niwa" do
-  version "1.3.13"
-  sha256 "7cb379d320ac1893278f0ee980d2cce828bad4f98e4124bbdc3f4b7d910845de"
+  version "1.4.0"
+  sha256 "42a517a8e0bb7254f7341fe7f7b24c044eea38f7fffc1f6f45d71009cf3b6983"
 
   url "https://github.com/saidjamesphilip/Niwa/releases/download/v#{version}/Niwa-#{version}-mac.zip"
   name "Niwa"
-  desc "macOS menu bar productivity app with focus timer, tasks, notes, and gamification"
+  desc "macOS menu bar productivity app with focus timer, tasks, notes, meetings, and gamification"
   homepage "https://niwa-app.pages.dev/"
 
   depends_on macos: ">= :sequoia"
